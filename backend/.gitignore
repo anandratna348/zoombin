@@ -1,0 +1,18 @@
+@'
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+**/env/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.db
+node_modules/
+dist/
+target/
+'@ | Add-Content .gitignore
