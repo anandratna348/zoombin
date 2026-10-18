@@ -1,0 +1,36 @@
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Frontend and Rust build outputs
+dist/
+**/dist/
+target/
+**/target/
+
+# Python environments and cache
+.venv/
+**/.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+*.sqlite3
+*.db
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local Zoombin signing key
+jwt_secret.key
