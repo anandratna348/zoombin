@@ -21,6 +21,14 @@
       "csp": null
     }
   },
+
+  "plugins": {
+  "deep-link": {
+    "desktop": {
+      "schemes": ["zoombin"]
+    }
+  }
+},
   "bundle": {
     "active": true,
     "targets": "all",
